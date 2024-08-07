@@ -1,0 +1,50 @@
+[ 25%] Built target robot_driver
+[ 50%] Built target lap_time_action_client
+[35m[1mConsolidate compiler generated dependencies of target lap_time_action_server[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/lap_time_action_server.dir/src/lap_time_action_server.cpp.o[0m
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse LapTimeActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const my_interface::action::MeasureLapTime_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:23:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   23 |     [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:24:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   24 |     [01;35m[Kstd::shared_ptr<const MeasureLapTime::Goal> goal[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse LapTimeActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_interface::action::MeasureLapTime> >)[m[K’:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:31:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   31 |     [01;35m[Kconst std::shared_ptr<GoalHandleMeasureLapTime> goal_handle[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[ 75%] [32m[1mLinking CXX executable lap_time_action_server[0m
+[ 75%] Built target lap_time_action_server
+[35m[1mConsolidate compiler generated dependencies of target wall_finder_service[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/wall_finder_service.dir/src/wall_finder_service.cpp.o[0m
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::find_closest_wall_callback(std::shared_ptr<my_interface::srv::FindClosestWall_Request_<std::allocator<void> > >, std::shared_ptr<my_interface::srv::FindClosestWall_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/wall_finder_service.cpp:22:119:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   22 | [01;35m[Ktd::shared_ptr<my_interface::srv::FindClosestWall::Request> request[m[K, std::shared_ptr<my_interface::srv::FindClosestWall::Response> response){
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+
+[100%] [32m[1mLinking CXX executable wall_finder_service[0m
+[100%] Built target wall_finder_service
+-- Install configuration: ""
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/lib/turtlebot_navigation/robot_driver
+-- Installing: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/lib/turtlebot_navigation/wall_finder_service
+-- Set runtime path of "/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/lib/turtlebot_navigation/wall_finder_service" to ""
+-- Installing: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/lib/turtlebot_navigation/lap_time_action_server
+-- Set runtime path of "/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/lib/turtlebot_navigation/lap_time_action_server" to ""
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/lib/turtlebot_navigation/lap_time_action_client
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/turtlebot_navigation/launch
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/turtlebot_navigation/launch/my_robot_launch.py
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/ament_index/resource_index/package_run_dependencies/turtlebot_navigation
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/ament_index/resource_index/parent_prefix_path/turtlebot_navigation
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/turtlebot_navigation/environment/ament_prefix_path.sh
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/turtlebot_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/turtlebot_navigation/environment/path.sh
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/turtlebot_navigation/environment/path.dsv
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/turtlebot_navigation/local_setup.bash
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/turtlebot_navigation/local_setup.sh
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/turtlebot_navigation/local_setup.zsh
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/turtlebot_navigation/local_setup.dsv
+-- Installing: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/turtlebot_navigation/package.dsv
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/ament_index/resource_index/packages/turtlebot_navigation
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/turtlebot_navigation/cmake/turtlebot_navigationConfig.cmake
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/turtlebot_navigation/cmake/turtlebot_navigationConfig-version.cmake
+-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/turtlebot_navigation/share/turtlebot_navigation/package.xml

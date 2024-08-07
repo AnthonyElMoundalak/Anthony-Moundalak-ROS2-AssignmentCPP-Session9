@@ -1,0 +1,4 @@
+[ 25%] Built target robot_driver
+[ 50%] Built target lap_time_action_client
+[35m[1mConsolidate compiler generated dependencies of target lap_time_action_server[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/lap_time_action_server.dir/src/lap_time_action_server.cpp.o[0m

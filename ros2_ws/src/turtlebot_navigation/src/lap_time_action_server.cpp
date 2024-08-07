@@ -44,6 +44,8 @@ void LapTimeActionServer::execute_callback(const std::shared_ptr<GoalHandleMeasu
 
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Received lap time goal");
 
+    auto start_time = std::chrono::steady_clock::now(); // start timing
+
     rclcpp::Rate rate(10);
 
     while(!start_lap){
@@ -117,6 +119,10 @@ void LapTimeActionServer::execute_callback(const std::shared_ptr<GoalHandleMeasu
     result->total_time = static_cast<float>(std::accumulate(lap_times.begin(), lap_times.end(), 0.0));
     goal_handle->succeed(result);
     RCLCPP_INFO(this->get_logger(), "Total time for all laps: %.2f seconds", result->total_time);
+
+    auto end_time = std::chrono::steady_clock::now(); // End timing
+    auto total_duration = std::chrono::duration<double>(end_time - start_time).count();
+    RCLCPP_INFO(this->get_logger(), "Total execution time of execute_callback method: %.2f seconds", total_duration);
 
 }
 

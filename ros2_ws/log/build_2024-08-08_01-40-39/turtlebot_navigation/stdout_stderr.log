@@ -1,0 +1,181 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_driver[0m
+[35m[1mConsolidate compiler generated dependencies of target lap_time_action_server[0m
+[35m[1mConsolidate compiler generated dependencies of target wall_finder_service[0m
+[35m[1mConsolidate compiler generated dependencies of target lap_time_action_client[0m
+[ 25%] Built target lap_time_action_client
+[ 37%] [32mBuilding CXX object CMakeFiles/lap_time_action_server.dir/src/lap_time_action_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wall_finder_service.dir/src/wall_finder_service.cpp.o[0m
+[ 75%] Built target robot_driver
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/wall_finder_service.cpp:[m[K In member function ‘[01m[Kvoid WallFinderService::find_closest_wall_callback(std::shared_ptr<my_interface::srv::FindClosestWall_Request_<std::allocator<void> > >, std::shared_ptr<my_interface::srv::FindClosestWall_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/wall_finder_service.cpp:22:119:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   22 | void WallFinderService::find_closest_wall_callback([01;35m[Kconst std::shared_ptr<my_interface::srv::FindClosestWall::Request> request[m[K, std::shared_ptr<my_interface::srv::FindClosestWall::Response> response){
+      |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse LapTimeActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const my_interface::action::MeasureLapTime_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:23:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   23 |     [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:24:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   24 |     [01;35m[Kstd::shared_ptr<const MeasureLapTime::Goal> goal[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse LapTimeActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_interface::action::MeasureLapTime> >)[m[K’:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:31:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   31 |     [01;35m[Kconst std::shared_ptr<GoalHandleMeasureLapTime> goal_handle[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:[m[K In member function ‘[01m[Kvoid LapTimeActionServer::execute_callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_interface::action::MeasureLapTime> >)[m[K’:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:71:53:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ and ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’})
+   71 |         start_time = std::chrono::steady_clock::now([01;31m[K)[m[K;
+      |                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.hpp:4[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/chrono:872:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >& std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >::operator=(const std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&)[m[K’
+  872 |       struct [01;36m[Ktime_point[m[K
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/chrono:872:14:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} to ‘[01m[Kconst std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&[m[K’
+[01m[K/usr/include/c++/11/chrono:872:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >& std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >::operator=(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&&)[m[K’
+[01m[K/usr/include/c++/11/chrono:872:14:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} to ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&&[m[K’
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:82:49:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ and ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’})
+   82 |     start_time = std::chrono::steady_clock::now([01;31m[K)[m[K;
+      |                                                 [01;31m[K^[m[K
+In file included from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.hpp:4[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/chrono:872:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >& std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >::operator=(const std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&)[m[K’
+  872 |       struct [01;36m[Ktime_point[m[K
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/chrono:872:14:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} to ‘[01m[Kconst std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&[m[K’
+[01m[K/usr/include/c++/11/chrono:872:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >& std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >::operator=(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&&)[m[K’
+[01m[K/usr/include/c++/11/chrono:872:14:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} to ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&&[m[K’
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:87:94:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} and ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’)
+   87 |         double elapsed_time = std::chrono::duration<double>([32m[Kstd::chrono::steady_clock::now()[m[K [01;31m[K-[m[K [34m[Kstart_time[m[K).count();
+      |                                                             [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~[m[K
+      |                                                                                           [32m[K|[m[K    [34m[K|[m[K
+      |                                                                                           [32m[K|[m[K    [34m[Ktime_point<std::chrono::_V2::system_clock,[...]>[m[K
+      |                                                                                           [32m[Ktime_point<std::chrono::_V2::steady_clock,[...]>[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/array:40[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/functional:54[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.hpp:5[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:577:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+  577 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:577:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:87:96:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+   87 |         double elapsed_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+      |                                                                                                [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/array:40[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/functional:54[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.hpp:5[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+ 1693 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:87:96:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+   87 |         double elapsed_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+      |                                                                                                [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.hpp:4[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/chrono:660:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep1, class _Period1, class _Rep2, class _Period2> constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator-(const std::chrono::duration<_Rep1, _Period1>&, const std::chrono::duration<_Rep2, _Period2>&)[m[K’
+  660 |       [01;36m[Koperator[m[K-(const duration<_Rep1, _Period1>& __lhs,
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/chrono:660:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:87:96:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’
+   87 |         double elapsed_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+      |                                                                                                [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.hpp:4[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/chrono:1030:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Clock, class _Dur1, class _Rep2, class _Period2> constexpr std::chrono::time_point<_Clock, typename std::common_type<_Dur1, std::chrono::duration<_Rep2, _Period2> >::type> std::chrono::operator-(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::duration<_Rep2, _Period2>&)[m[K’
+ 1030 |       [01;36m[Koperator[m[K-(const time_point<_Clock, _Dur1>& __lhs,
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/chrono:1030:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:87:96:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ is not derived from ‘[01m[Kconst std::chrono::duration<_Rep2, _Period2>[m[K’
+   87 |         double elapsed_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+      |                                                                                                [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.hpp:4[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/chrono:1042:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Clock, class _Dur1, class _Dur2> constexpr typename std::common_type<_Duration1, _Duration2>::type std::chrono::operator-(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::time_point<_Clock, _Duration2>&)[m[K’
+ 1042 |       [01;36m[Koperator[m[K-(const time_point<_Clock, _Dur1>& __lhs,
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/chrono:1042:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:87:96:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_Clock[m[K’ (‘[01m[Kstd::chrono::_V2::steady_clock[m[K’ and ‘[01m[Kstd::chrono::_V2::system_clock[m[K’)
+   87 |         double elapsed_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+      |                                                                                                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:97:94:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand types are ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} and ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’)
+   97 |             double lap_time = std::chrono::duration<double>([32m[Kstd::chrono::steady_clock::now()[m[K [01;31m[K-[m[K [34m[Kstart_time[m[K).count();
+      |                                                             [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~[m[K
+      |                                                                                           [32m[K|[m[K    [34m[K|[m[K
+      |                                                                                           [32m[K|[m[K    [34m[Ktime_point<std::chrono::_V2::system_clock,[...]>[m[K
+      |                                                                                           [32m[Ktime_point<std::chrono::_V2::steady_clock,[...]>[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/array:40[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/functional:54[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.hpp:5[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:577:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+  577 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:577:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:97:96:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+   97 |             double lap_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+      |                                                                                                [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/array:40[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/functional:54[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.hpp:5[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+ 1693 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:97:96:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+   97 |             double lap_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+      |                                                                                                [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.hpp:4[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/chrono:660:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Rep1, class _Period1, class _Rep2, class _Period2> constexpr typename std::common_type<std::chrono::duration<_Rep1, _Period1>, std::chrono::duration<_Rep2, _Period2> >::type std::chrono::operator-(const std::chrono::duration<_Rep1, _Period1>&, const std::chrono::duration<_Rep2, _Period2>&)[m[K’
+  660 |       [01;36m[Koperator[m[K-(const duration<_Rep1, _Period1>& __lhs,
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/chrono:660:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:97:96:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} is not derived from ‘[01m[Kconst std::chrono::duration<_Rep1, _Period1>[m[K’
+   97 |             double lap_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+      |                                                                                                [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.hpp:4[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/chrono:1030:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Clock, class _Dur1, class _Rep2, class _Period2> constexpr std::chrono::time_point<_Clock, typename std::common_type<_Dur1, std::chrono::duration<_Rep2, _Period2> >::type> std::chrono::operator-(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::duration<_Rep2, _Period2>&)[m[K’
+ 1030 |       [01;36m[Koperator[m[K-(const time_point<_Clock, _Dur1>& __lhs,
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/chrono:1030:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:97:96:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ is not derived from ‘[01m[Kconst std::chrono::duration<_Rep2, _Period2>[m[K’
+   97 |             double lap_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+      |                                                                                                [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.hpp:4[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/chrono:1042:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Clock, class _Dur1, class _Dur2> constexpr typename std::common_type<_Duration1, _Duration2>::type std::chrono::operator-(const std::chrono::time_point<_Clock, _Duration1>&, const std::chrono::time_point<_Clock, _Duration2>&)[m[K’
+ 1042 |       [01;36m[Koperator[m[K-(const time_point<_Clock, _Dur1>& __lhs,
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/chrono:1042:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:97:96:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_Clock[m[K’ (‘[01m[Kstd::chrono::_V2::steady_clock[m[K’ and ‘[01m[Kstd::chrono::_V2::system_clock[m[K’)
+   97 |             double lap_time = std::chrono::duration<double>(std::chrono::steady_clock::now() - [01;36m[Kstart_time[m[K).count();
+      |                                                                                                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:101:57:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’ and ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’})
+  101 |             start_time = std::chrono::steady_clock::now([01;31m[K)[m[K;
+      |                                                         [01;31m[K^[m[K
+In file included from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.hpp:4[m[K,
+                 from [01m[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:1[m[K:
+[01m[K/usr/include/c++/11/chrono:872:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >& std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >::operator=(const std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&)[m[K’
+  872 |       struct [01;36m[Ktime_point[m[K
+      |              [01;36m[K^~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/chrono:872:14:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} to ‘[01m[Kconst std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&[m[K’
+[01m[K/usr/include/c++/11/chrono:872:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >& std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >::operator=(std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&&)[m[K’
+[01m[K/usr/include/c++/11/chrono:872:14:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::_V2::steady_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} to ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&&[m[K’
+gmake[2]: *** [CMakeFiles/lap_time_action_server.dir/build.make:76: CMakeFiles/lap_time_action_server.dir/src/lap_time_action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/lap_time_action_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 87%] [32m[1mLinking CXX executable wall_finder_service[0m
+[ 87%] Built target wall_finder_service
+gmake: *** [Makefile:146: all] Error 2

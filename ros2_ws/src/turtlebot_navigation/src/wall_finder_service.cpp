@@ -20,6 +20,9 @@ WallFinderService::WallFinderService():Node("wall_finder_service"){
 }
 
 void WallFinderService::find_closest_wall_callback(const std::shared_ptr<my_interface::srv::FindClosestWall::Request> request, std::shared_ptr<my_interface::srv::FindClosestWall::Response> response){
+    
+    auto start_time = std::chrono::steady_clock::now(); // Start timing
+    
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Finding closest wall...");
     twist.linear.x = 0.2;
     vel_pub->publish(twist);
@@ -31,6 +34,11 @@ void WallFinderService::find_closest_wall_callback(const std::shared_ptr<my_inte
     // Send success response
 
     response->success = true;
+
+    auto end_time = std::chrono::steady_clock::now(); // End timing
+    auto duration = std::chrono::duration<double>(end_time - start_time).count();
+    RCLCPP_INFO(this->get_logger(), "find_closest_wall_callback execution time: %.2f seconds", duration);
+
 }
 
 void WallFinderService::check_closest_distance(){

@@ -4,3 +4,7 @@ my_interface.egg-info/PKG-INFO
 my_interface.egg-info/SOURCES.txt
 my_interface.egg-info/dependency_links.txt
 my_interface.egg-info/top_level.txt
+my_interface/action/__init__.py
+my_interface/action/_measure_lap_time.py
+my_interface/srv/__init__.py
+my_interface/srv/_find_closest_wall.py

@@ -1,0 +1,586 @@
+[0.000000] (-) TimerEvent: {}
+[0.000761] (my_interface) JobQueued: {'identifier': 'my_interface', 'dependencies': OrderedDict()}
+[0.001437] (turtlebot_navigation) JobQueued: {'identifier': 'turtlebot_navigation', 'dependencies': OrderedDict([('my_interface', '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface')])}
+[0.001946] (my_interface) JobStarted: {'identifier': 'my_interface'}
+[0.062378] (my_interface) JobProgress: {'identifier': 'my_interface', 'progress': 'cmake'}
+[0.063564] (my_interface) JobProgress: {'identifier': 'my_interface', 'progress': 'build'}
+[0.063711] (my_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/build/my_interface', '--', '-j4', '-l4'], 'cwd': '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/build/my_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anthonyubuntu'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/my_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anthonyubuntu'), ('OLDPWD', '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2131'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anthonyubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anthonyubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anthonyubuntu:@/tmp/.ICE-unix/1940,unix/anthonyubuntu:/tmp/.ICE-unix/1940'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d07234bb_dbff_4511_8c57_792a342a6480'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QJZFS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/turtlebot_navigation:/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/my_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/build/my_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/my_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/turtlebot_navigation:/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/my_interface:/opt/ros/humble')]), 'shell': False}
+[0.096763] (-) TimerEvent: {}
+[0.197899] (-) TimerEvent: {}
+[0.298542] (-) TimerEvent: {}
+[0.399913] (-) TimerEvent: {}
+[0.439912] (my_interface) StdoutLine: {'line': b'[  2%] Built target my_interface__cpp\n'}
+[0.500149] (-) TimerEvent: {}
+[0.601039] (-) TimerEvent: {}
+[0.634906] (my_interface) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_my_interface\n'}
+[0.701301] (-) TimerEvent: {}
+[0.720037] (my_interface) StdoutLine: {'line': b'[ 12%] Built target my_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[0.801727] (-) TimerEvent: {}
+[0.826506] (my_interface) StdoutLine: {'line': b'[ 23%] Built target my_interface__rosidl_typesupport_introspection_cpp\n'}
+[0.901972] (-) TimerEvent: {}
+[1.002862] (-) TimerEvent: {}
+[1.104280] (-) TimerEvent: {}
+[1.205294] (-) TimerEvent: {}
+[1.306316] (-) TimerEvent: {}
+[1.407264] (-) TimerEvent: {}
+[1.508365] (-) TimerEvent: {}
+[1.609455] (-) TimerEvent: {}
+[1.710334] (-) TimerEvent: {}
+[1.811566] (-) TimerEvent: {}
+[1.912864] (-) TimerEvent: {}
+[2.013323] (-) TimerEvent: {}
+[2.115058] (-) TimerEvent: {}
+[2.216248] (-) TimerEvent: {}
+[2.260982] (my_interface) StdoutLine: {'line': b'running egg_info\n'}
+[2.268531] (my_interface) StdoutLine: {'line': b'writing my_interface.egg-info/PKG-INFO\n'}
+[2.276793] (my_interface) StdoutLine: {'line': b'writing dependency_links to my_interface.egg-info/dependency_links.txt\n'}
+[2.277900] (my_interface) StdoutLine: {'line': b'writing top-level names to my_interface.egg-info/top_level.txt\n'}
+[2.317205] (-) TimerEvent: {}
+[2.339602] (my_interface) StdoutLine: {'line': b"reading manifest file 'my_interface.egg-info/SOURCES.txt'\n"}
+[2.343540] (my_interface) StdoutLine: {'line': b"writing manifest file 'my_interface.egg-info/SOURCES.txt'\n"}
+[2.417473] (-) TimerEvent: {}
+[2.494722] (my_interface) StdoutLine: {'line': b'[ 23%] Built target ament_cmake_python_build_my_interface_egg\n'}
+[2.517573] (-) TimerEvent: {}
+[2.618188] (-) TimerEvent: {}
+[2.618731] (my_interface) StdoutLine: {'line': b'[ 33%] Built target my_interface__rosidl_typesupport_cpp\n'}
+[2.718496] (-) TimerEvent: {}
+[2.743878] (my_interface) StdoutLine: {'line': b'[ 43%] Built target my_interface__rosidl_generator_c\n'}
+[2.819247] (-) TimerEvent: {}
+[2.903665] (my_interface) StdoutLine: {'line': b'[ 53%] Built target my_interface__rosidl_typesupport_fastrtps_c\n'}
+[2.919556] (-) TimerEvent: {}
+[3.020492] (-) TimerEvent: {}
+[3.096436] (my_interface) StdoutLine: {'line': b'[ 64%] Built target my_interface__rosidl_typesupport_c\n'}
+[3.121032] (-) TimerEvent: {}
+[3.222203] (-) TimerEvent: {}
+[3.324114] (-) TimerEvent: {}
+[3.350948] (my_interface) StdoutLine: {'line': b'[ 74%] Built target my_interface__rosidl_typesupport_introspection_c\n'}
+[3.424308] (-) TimerEvent: {}
+[3.525753] (-) TimerEvent: {}
+[3.534277] (my_interface) StdoutLine: {'line': b'[ 74%] Built target my_interface\n'}
+[3.626258] (-) TimerEvent: {}
+[3.684542] (my_interface) StdoutLine: {'line': b'[ 76%] Built target my_interface__py\n'}
+[3.726893] (-) TimerEvent: {}
+[3.828698] (-) TimerEvent: {}
+[3.898657] (my_interface) StdoutLine: {'line': b'[ 84%] Built target my_interface__rosidl_generator_py\n'}
+[3.929158] (-) TimerEvent: {}
+[3.985420] (my_interface) StdoutLine: {'line': b'[ 89%] Built target my_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.029417] (-) TimerEvent: {}
+[4.084182] (my_interface) StdoutLine: {'line': b'[ 94%] Built target my_interface__rosidl_typesupport_c__pyext\n'}
+[4.129727] (-) TimerEvent: {}
+[4.196972] (my_interface) StdoutLine: {'line': b'[100%] Built target my_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[4.230683] (-) TimerEvent: {}
+[4.245969] (my_interface) CommandEnded: {'returncode': 0}
+[4.331165] (-) TimerEvent: {}
+[4.432786] (-) TimerEvent: {}
+[4.533716] (-) TimerEvent: {}
+[4.634584] (-) TimerEvent: {}
+[4.735694] (-) TimerEvent: {}
+[4.810101] (my_interface) JobProgress: {'identifier': 'my_interface', 'progress': 'install'}
+[4.837159] (-) TimerEvent: {}
+[4.859226] (my_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/build/my_interface'], 'cwd': '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/build/my_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anthonyubuntu'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/my_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anthonyubuntu'), ('OLDPWD', '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2131'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anthonyubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anthonyubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anthonyubuntu:@/tmp/.ICE-unix/1940,unix/anthonyubuntu:/tmp/.ICE-unix/1940'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d07234bb_dbff_4511_8c57_792a342a6480'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QJZFS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/turtlebot_navigation:/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/my_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/build/my_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/my_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/turtlebot_navigation:/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/my_interface:/opt/ros/humble')]), 'shell': False}
+[4.907250] (my_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.911146] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/ament_index/resource_index/rosidl_interfaces/my_interface\n'}
+[4.911566] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface\n'}
+[4.911854] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv\n'}
+[4.912007] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail\n'}
+[4.912182] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail/find_closest_wall__type_support.h\n'}
+[4.912366] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail/find_closest_wall__functions.c\n'}
+[4.914313] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail/find_closest_wall__struct.h\n'}
+[4.914816] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail/find_closest_wall__functions.h\n'}
+[4.914987] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/find_closest_wall.h\n'}
+[4.915132] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[4.915295] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.915426] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action\n'}
+[4.915527] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail\n'}
+[4.915932] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail/measure_lap_time__functions.c\n'}
+[4.917178] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail/measure_lap_time__type_support.h\n'}
+[4.920163] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail/measure_lap_time__struct.h\n'}
+[4.920359] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail/measure_lap_time__functions.h\n'}
+[4.920469] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/measure_lap_time.h\n'}
+[4.920656] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/environment/library_path.sh\n'}
+[4.920898] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/environment/library_path.dsv\n'}
+[4.921254] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/lib/libmy_interface__rosidl_generator_c.so\n'}
+[4.922266] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface\n'}
+[4.923655] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv\n'}
+[4.923882] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail\n'}
+[4.924113] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_c.h\n'}
+[4.924292] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[4.926786] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.926973] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action\n'}
+[4.927141] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail\n'}
+[4.927265] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_c.h\n'}
+[4.927394] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[4.927559] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface\n'}
+[4.928238] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv\n'}
+[4.934077] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail\n'}
+[4.935768] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail/find_closest_wall__rosidl_typesupport_introspection_c.h\n'}
+[4.937222] (-) TimerEvent: {}
+[4.940478] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail/find_closest_wall__type_support.c\n'}
+[4.941933] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[4.942090] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.942258] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action\n'}
+[4.942396] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail\n'}
+[4.942560] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail/measure_lap_time__type_support.c\n'}
+[4.942663] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail/measure_lap_time__rosidl_typesupport_introspection_c.h\n'}
+[4.942764] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_c.so\n'}
+[4.944723] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_c.so\n'}
+[4.945082] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface\n'}
+[4.945203] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv\n'}
+[4.945389] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail\n'}
+[4.945520] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail/find_closest_wall__builder.hpp\n'}
+[4.945620] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail/find_closest_wall__traits.hpp\n'}
+[4.945807] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail/find_closest_wall__struct.hpp\n'}
+[4.946055] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/find_closest_wall.hpp\n'}
+[4.946210] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action\n'}
+[4.946375] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail\n'}
+[4.946546] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail/measure_lap_time__struct.hpp\n'}
+[4.946752] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail/measure_lap_time__builder.hpp\n'}
+[4.947148] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail/measure_lap_time__traits.hpp\n'}
+[4.947562] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/measure_lap_time.hpp\n'}
+[4.947760] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface\n'}
+[4.967148] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv\n'}
+[4.967474] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail\n'}
+[4.967841] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.968042] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail/dds_fastrtps\n'}
+[4.968284] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/msg\n'}
+[4.968505] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.968690] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action\n'}
+[4.968843] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail\n'}
+[4.968949] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.969068] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail/dds_fastrtps\n'}
+[4.969425] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.971190] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface\n'}
+[4.971660] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv\n'}
+[4.972116] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail\n'}
+[4.972546] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail/find_closest_wall__type_support.cpp\n'}
+[4.972746] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/srv/detail/find_closest_wall__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.972858] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action\n'}
+[4.972977] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail\n'}
+[4.973402] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail/measure_lap_time__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.973562] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/include/my_interface/my_interface/action/detail/measure_lap_time__type_support.cpp\n'}
+[4.987799] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[4.988192] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/lib/libmy_interface__rosidl_typesupport_cpp.so\n'}
+[4.988528] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/environment/pythonpath.sh\n'}
+[4.988717] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/environment/pythonpath.dsv\n'}
+[4.988910] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info\n'}
+[4.989253] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.989399] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.989544] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.989701] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.989831] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface\n'}
+[4.990013] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/__init__.py\n'}
+[4.990137] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/srv\n'}
+[5.004100] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/srv/_find_closest_wall.py\n'}
+[5.004913] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/srv/__init__.py\n'}
+[5.005460] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/srv/_find_closest_wall_s.c\n'}
+[5.010049] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.010915] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.011212] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.011489] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/libmy_interface__rosidl_generator_py.so\n'}
+[5.011694] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.011985] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_c.c\n'}
+[5.012268] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/_my_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.012514] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/action\n'}
+[5.012694] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/action/__init__.py\n'}
+[5.012948] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/action/_measure_lap_time.py\n'}
+[5.013156] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/action/_measure_lap_time_s.c\n'}
+[5.040740] (-) TimerEvent: {}
+[5.141693] (-) TimerEvent: {}
+[5.189714] (my_interface) StdoutLine: {'line': b"Listing '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface'...\n"}
+[5.190269] (my_interface) StdoutLine: {'line': b"Listing '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/action'...\n"}
+[5.190637] (my_interface) StdoutLine: {'line': b"Listing '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/srv'...\n"}
+[5.216570] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.217085] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.217435] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages/my_interface/my_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.217737] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/lib/libmy_interface__rosidl_generator_py.so\n'}
+[5.217916] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/action/MeasureLapTime.idl\n'}
+[5.218073] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/srv/FindClosestWall.idl\n'}
+[5.218566] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/action/MeasureLapTime.action\n'}
+[5.219379] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/srv/FindClosestWall.srv\n'}
+[5.219526] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/srv/FindClosestWall_Request.msg\n'}
+[5.219667] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/srv/FindClosestWall_Response.msg\n'}
+[5.219835] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/ament_index/resource_index/package_run_dependencies/my_interface\n'}
+[5.219992] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/ament_index/resource_index/parent_prefix_path/my_interface\n'}
+[5.220224] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/environment/ament_prefix_path.sh\n'}
+[5.220500] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/environment/ament_prefix_path.dsv\n'}
+[5.220886] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/environment/path.sh\n'}
+[5.221227] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/environment/path.dsv\n'}
+[5.221663] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/local_setup.bash\n'}
+[5.221914] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/local_setup.sh\n'}
+[5.222233] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/local_setup.zsh\n'}
+[5.222459] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/local_setup.dsv\n'}
+[5.222902] (my_interface) StdoutLine: {'line': b'-- Installing: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/package.dsv\n'}
+[5.226061] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/ament_index/resource_index/packages/my_interface\n'}
+[5.227017] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cExport.cmake\n'}
+[5.227291] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.230428] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.230812] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.234332] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.235442] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.236035] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cExport.cmake\n'}
+[5.236914] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.237422] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_cppExport.cmake\n'}
+[5.239924] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.240302] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.240705] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.241005] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.241862] (-) TimerEvent: {}
+[5.242424] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cppExport.cmake\n'}
+[5.242718] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/my_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.244476] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_pyExport.cmake\n'}
+[5.244764] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/export_my_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.244894] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[5.245058] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.245174] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.245281] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.245471] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.245625] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.245732] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.245836] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/my_interfaceConfig.cmake\n'}
+[5.248230] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/cmake/my_interfaceConfig-version.cmake\n'}
+[5.248652] (my_interface) StdoutLine: {'line': b'-- Up-to-date: /home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/share/my_interface/package.xml\n'}
+[5.259866] (my_interface) CommandEnded: {'returncode': 0}
+[5.344935] (-) TimerEvent: {}
+[5.445991] (-) TimerEvent: {}
+[5.547115] (-) TimerEvent: {}
+[5.648941] (-) TimerEvent: {}
+[5.750438] (-) TimerEvent: {}
+[5.851178] (-) TimerEvent: {}
+[5.952682] (-) TimerEvent: {}
+[6.041040] (my_interface) JobEnded: {'identifier': 'my_interface', 'rc': 0}
+[6.042939] (turtlebot_navigation) JobStarted: {'identifier': 'turtlebot_navigation'}
+[6.052997] (-) TimerEvent: {}
+[6.085788] (turtlebot_navigation) JobProgress: {'identifier': 'turtlebot_navigation', 'progress': 'cmake'}
+[6.085973] (turtlebot_navigation) JobProgress: {'identifier': 'turtlebot_navigation', 'progress': 'build'}
+[6.086072] (turtlebot_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/build/turtlebot_navigation', '--', '-j4', '-l4'], 'cwd': '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/build/turtlebot_navigation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'anthonyubuntu'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/lib:/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/my_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anthonyubuntu'), ('OLDPWD', '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2131'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anthonyubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anthonyubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anthonyubuntu:@/tmp/.ICE-unix/1940,unix/anthonyubuntu:/tmp/.ICE-unix/1940'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d07234bb_dbff_4511_8c57_792a342a6480'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QJZFS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface:/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/turtlebot_navigation:/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/my_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/build/turtlebot_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface/local/lib/python3.10/dist-packages:/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/my_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/install/my_interface:/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/turtlebot_navigation:/home/anthonyubuntu/Desktop/inmind/test/cppgazws/install/my_interface:/opt/ros/humble')]), 'shell': False}
+[6.153207] (-) TimerEvent: {}
+[6.253884] (-) TimerEvent: {}
+[6.354655] (-) TimerEvent: {}
+[6.455775] (-) TimerEvent: {}
+[6.556515] (-) TimerEvent: {}
+[6.656499] (turtlebot_navigation) StdoutLine: {'line': b'[ 25%] Built target robot_driver\n'}
+[6.656951] (-) TimerEvent: {}
+[6.757789] (-) TimerEvent: {}
+[6.826012] (turtlebot_navigation) StdoutLine: {'line': b'[ 50%] Built target lap_time_action_client\n'}
+[6.858018] (-) TimerEvent: {}
+[6.958705] (-) TimerEvent: {}
+[6.966402] (turtlebot_navigation) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lap_time_action_server\x1b[0m\n'}
+[7.058912] (-) TimerEvent: {}
+[7.092311] (turtlebot_navigation) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/lap_time_action_server.dir/src/lap_time_action_server.cpp.o\x1b[0m\n'}
+[7.159091] (-) TimerEvent: {}
+[7.259758] (-) TimerEvent: {}
+[7.360409] (-) TimerEvent: {}
+[7.461629] (-) TimerEvent: {}
+[7.562369] (-) TimerEvent: {}
+[7.663540] (-) TimerEvent: {}
+[7.764422] (-) TimerEvent: {}
+[7.865167] (-) TimerEvent: {}
+[7.965839] (-) TimerEvent: {}
+[8.066811] (-) TimerEvent: {}
+[8.167921] (-) TimerEvent: {}
+[8.268727] (-) TimerEvent: {}
+[8.370119] (-) TimerEvent: {}
+[8.471008] (-) TimerEvent: {}
+[8.571667] (-) TimerEvent: {}
+[8.672421] (-) TimerEvent: {}
+[8.773066] (-) TimerEvent: {}
+[8.873747] (-) TimerEvent: {}
+[8.974238] (-) TimerEvent: {}
+[9.074944] (-) TimerEvent: {}
+[9.175808] (-) TimerEvent: {}
+[9.277276] (-) TimerEvent: {}
+[9.377946] (-) TimerEvent: {}
+[9.479086] (-) TimerEvent: {}
+[9.580035] (-) TimerEvent: {}
+[9.680724] (-) TimerEvent: {}
+[9.781409] (-) TimerEvent: {}
+[9.882086] (-) TimerEvent: {}
+[9.982847] (-) TimerEvent: {}
+[10.084013] (-) TimerEvent: {}
+[10.184757] (-) TimerEvent: {}
+[10.285822] (-) TimerEvent: {}
+[10.386570] (-) TimerEvent: {}
+[10.488409] (-) TimerEvent: {}
+[10.589018] (-) TimerEvent: {}
+[10.689651] (-) TimerEvent: {}
+[10.790492] (-) TimerEvent: {}
+[10.891490] (-) TimerEvent: {}
+[11.001061] (-) TimerEvent: {}
+[11.101737] (-) TimerEvent: {}
+[11.202644] (-) TimerEvent: {}
+[11.304035] (-) TimerEvent: {}
+[11.404729] (-) TimerEvent: {}
+[11.505663] (-) TimerEvent: {}
+[11.606350] (-) TimerEvent: {}
+[11.707013] (-) TimerEvent: {}
+[11.807560] (-) TimerEvent: {}
+[11.908221] (-) TimerEvent: {}
+[12.009040] (-) TimerEvent: {}
+[12.110236] (-) TimerEvent: {}
+[12.210936] (-) TimerEvent: {}
+[12.312470] (-) TimerEvent: {}
+[12.413156] (-) TimerEvent: {}
+[12.513846] (-) TimerEvent: {}
+[12.614963] (-) TimerEvent: {}
+[12.715794] (-) TimerEvent: {}
+[12.816696] (-) TimerEvent: {}
+[12.917535] (-) TimerEvent: {}
+[13.018251] (-) TimerEvent: {}
+[13.119003] (-) TimerEvent: {}
+[13.220154] (-) TimerEvent: {}
+[13.320793] (-) TimerEvent: {}
+[13.422135] (-) TimerEvent: {}
+[13.522806] (-) TimerEvent: {}
+[13.623404] (-) TimerEvent: {}
+[13.724604] (-) TimerEvent: {}
+[13.826260] (-) TimerEvent: {}
+[13.926922] (-) TimerEvent: {}
+[14.027601] (-) TimerEvent: {}
+[14.128731] (-) TimerEvent: {}
+[14.229785] (-) TimerEvent: {}
+[14.330660] (-) TimerEvent: {}
+[14.431382] (-) TimerEvent: {}
+[14.532085] (-) TimerEvent: {}
+[14.632705] (-) TimerEvent: {}
+[14.734024] (-) TimerEvent: {}
+[14.834579] (-) TimerEvent: {}
+[14.935273] (-) TimerEvent: {}
+[15.035938] (-) TimerEvent: {}
+[15.136632] (-) TimerEvent: {}
+[15.237332] (-) TimerEvent: {}
+[15.339813] (-) TimerEvent: {}
+[15.440589] (-) TimerEvent: {}
+[15.541372] (-) TimerEvent: {}
+[15.642058] (-) TimerEvent: {}
+[15.744378] (-) TimerEvent: {}
+[15.845225] (-) TimerEvent: {}
+[15.946102] (-) TimerEvent: {}
+[16.046881] (-) TimerEvent: {}
+[16.147478] (-) TimerEvent: {}
+[16.248180] (-) TimerEvent: {}
+[16.348897] (-) TimerEvent: {}
+[16.449606] (-) TimerEvent: {}
+[16.550776] (-) TimerEvent: {}
+[16.635689] (turtlebot_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse LapTimeActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const my_interface::action::MeasureLapTime_Goal_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.636360] (turtlebot_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:23:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kuuid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.636624] (turtlebot_navigation) StderrLine: {'line': b'   23 |     \x1b[01;35m\x1b[Kconst rclcpp_action::GoalUUID & uuid\x1b[m\x1b[K,\n'}
+[16.637292] (turtlebot_navigation) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[16.637538] (turtlebot_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:24:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.637698] (turtlebot_navigation) StderrLine: {'line': b'   24 |     \x1b[01;35m\x1b[Kstd::shared_ptr<const MeasureLapTime::Goal> goal\x1b[m\x1b[K)\n'}
+[16.638152] (turtlebot_navigation) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[16.638341] (turtlebot_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::CancelResponse LapTimeActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_interface::action::MeasureLapTime> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.638511] (turtlebot_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:31:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.638616] (turtlebot_navigation) StderrLine: {'line': b'   31 |     \x1b[01;35m\x1b[Kconst std::shared_ptr<GoalHandleMeasureLapTime> goal_handle\x1b[m\x1b[K)\n'}
+[16.638793] (turtlebot_navigation) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.640126] (turtlebot_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LapTimeActionServer::execute_callback(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_interface::action::MeasureLapTime> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.640815] (turtlebot_navigation) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anthonyubuntu/Desktop/inmind/session9/Anthony-Moundalak-ROS2-AssignmentCPP-Session9/ros2_ws/src/turtlebot_navigation/src/lap_time_action_server.cpp:47:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Kstart_time\x1b[m\x1b[K\xe2\x80\x99 before deduction of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.641156] (turtlebot_navigation) StderrLine: {'line': b'   47 |     auto start_time = \x1b[01;31m\x1b[Kstart_time\x1b[m\x1b[K = std::chrono::steady_clock::now(); // start timing\n'}
+[16.641328] (turtlebot_navigation) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.650999] (-) TimerEvent: {}
+[16.752161] (-) TimerEvent: {}
+[16.852886] (-) TimerEvent: {}
+[16.953942] (-) TimerEvent: {}
+[17.054645] (-) TimerEvent: {}
+[17.155344] (-) TimerEvent: {}
+[17.255888] (-) TimerEvent: {}
+[17.356389] (-) TimerEvent: {}
+[17.457407] (-) TimerEvent: {}
+[17.558059] (-) TimerEvent: {}
+[17.658782] (-) TimerEvent: {}
+[17.759529] (-) TimerEvent: {}
+[17.889398] (-) TimerEvent: {}
+[17.990127] (-) TimerEvent: {}
+[18.090877] (-) TimerEvent: {}
+[18.191560] (-) TimerEvent: {}
+[18.292223] (-) TimerEvent: {}
+[18.392914] (-) TimerEvent: {}
+[18.493573] (-) TimerEvent: {}
+[18.594086] (-) TimerEvent: {}
+[18.694689] (-) TimerEvent: {}
+[18.795623] (-) TimerEvent: {}
+[18.896335] (-) TimerEvent: {}
+[18.997001] (-) TimerEvent: {}
+[19.097678] (-) TimerEvent: {}
+[19.198344] (-) TimerEvent: {}
+[19.299091] (-) TimerEvent: {}
+[19.399787] (-) TimerEvent: {}
+[19.500454] (-) TimerEvent: {}
+[19.601187] (-) TimerEvent: {}
+[19.701861] (-) TimerEvent: {}
+[19.804012] (-) TimerEvent: {}
+[19.904697] (-) TimerEvent: {}
+[20.005369] (-) TimerEvent: {}
+[20.106561] (-) TimerEvent: {}
+[20.207760] (-) TimerEvent: {}
+[20.308444] (-) TimerEvent: {}
+[20.409104] (-) TimerEvent: {}
+[20.509801] (-) TimerEvent: {}
+[20.610489] (-) TimerEvent: {}
+[20.711232] (-) TimerEvent: {}
+[20.812172] (-) TimerEvent: {}
+[20.913067] (-) TimerEvent: {}
+[21.013743] (-) TimerEvent: {}
+[21.114452] (-) TimerEvent: {}
+[21.215114] (-) TimerEvent: {}
+[21.315786] (-) TimerEvent: {}
+[21.416887] (-) TimerEvent: {}
+[21.517641] (-) TimerEvent: {}
+[21.618445] (-) TimerEvent: {}
+[21.719733] (-) TimerEvent: {}
+[21.821070] (-) TimerEvent: {}
+[21.921889] (-) TimerEvent: {}
+[22.022627] (-) TimerEvent: {}
+[22.123267] (-) TimerEvent: {}
+[22.224437] (-) TimerEvent: {}
+[22.325062] (-) TimerEvent: {}
+[22.427116] (-) TimerEvent: {}
+[22.528252] (-) TimerEvent: {}
+[22.630230] (-) TimerEvent: {}
+[22.731375] (-) TimerEvent: {}
+[22.832489] (-) TimerEvent: {}
+[22.932917] (-) TimerEvent: {}
+[23.038471] (-) TimerEvent: {}
+[23.151498] (-) TimerEvent: {}
+[23.252392] (-) TimerEvent: {}
+[23.360172] (-) TimerEvent: {}
+[23.478704] (-) TimerEvent: {}
+[23.579491] (-) TimerEvent: {}
+[23.680544] (-) TimerEvent: {}
+[23.781844] (-) TimerEvent: {}
+[23.882646] (-) TimerEvent: {}
+[23.983213] (-) TimerEvent: {}
+[24.116432] (-) TimerEvent: {}
+[24.233534] (-) TimerEvent: {}
+[24.337795] (-) TimerEvent: {}
+[24.440319] (-) TimerEvent: {}
+[24.552085] (-) TimerEvent: {}
+[24.685592] (-) TimerEvent: {}
+[24.787198] (-) TimerEvent: {}
+[25.068368] (-) TimerEvent: {}
+[25.298377] (-) TimerEvent: {}
+[25.586449] (-) TimerEvent: {}
+[25.704604] (-) TimerEvent: {}
+[25.815460] (-) TimerEvent: {}
+[25.916304] (-) TimerEvent: {}
+[26.032706] (-) TimerEvent: {}
+[26.135350] (-) TimerEvent: {}
+[26.236651] (-) TimerEvent: {}
+[26.337122] (-) TimerEvent: {}
+[26.496292] (-) TimerEvent: {}
+[26.639682] (-) TimerEvent: {}
+[26.826038] (-) TimerEvent: {}
+[26.943311] (-) TimerEvent: {}
+[27.082405] (-) TimerEvent: {}
+[27.184695] (-) TimerEvent: {}
+[27.335037] (-) TimerEvent: {}
+[27.448975] (-) TimerEvent: {}
+[27.552029] (-) TimerEvent: {}
+[27.663868] (-) TimerEvent: {}
+[27.778814] (-) TimerEvent: {}
+[27.879894] (-) TimerEvent: {}
+[27.991537] (-) TimerEvent: {}
+[28.092254] (-) TimerEvent: {}
+[28.208505] (-) TimerEvent: {}
+[28.309478] (-) TimerEvent: {}
+[28.423554] (-) TimerEvent: {}
+[28.536868] (-) TimerEvent: {}
+[28.637727] (-) TimerEvent: {}
+[28.738293] (-) TimerEvent: {}
+[28.848341] (-) TimerEvent: {}
+[28.956375] (-) TimerEvent: {}
+[29.061333] (-) TimerEvent: {}
+[29.172512] (-) TimerEvent: {}
+[29.288266] (-) TimerEvent: {}
+[29.389168] (-) TimerEvent: {}
+[29.518773] (-) TimerEvent: {}
+[29.626679] (-) TimerEvent: {}
+[29.770158] (-) TimerEvent: {}
+[29.889146] (-) TimerEvent: {}
+[29.992691] (-) TimerEvent: {}
+[30.131007] (-) TimerEvent: {}
+[30.255458] (-) TimerEvent: {}
+[30.357485] (-) TimerEvent: {}
+[30.501966] (-) TimerEvent: {}
+[30.602393] (-) TimerEvent: {}
+[30.716013] (-) TimerEvent: {}
+[30.834833] (-) TimerEvent: {}
+[30.956253] (-) TimerEvent: {}
+[31.074608] (-) TimerEvent: {}
+[31.175859] (-) TimerEvent: {}
+[31.293051] (-) TimerEvent: {}
+[31.394697] (-) TimerEvent: {}
+[31.499881] (-) TimerEvent: {}
+[31.640265] (-) TimerEvent: {}
+[31.751844] (-) TimerEvent: {}
+[31.865119] (-) TimerEvent: {}
+[31.988689] (-) TimerEvent: {}
+[32.090244] (-) TimerEvent: {}
+[32.193884] (-) TimerEvent: {}
+[32.317077] (-) TimerEvent: {}
+[32.419397] (-) TimerEvent: {}
+[32.555209] (-) TimerEvent: {}
+[32.666198] (-) TimerEvent: {}
+[32.791634] (-) TimerEvent: {}
+[32.905828] (-) TimerEvent: {}
+[33.007966] (-) TimerEvent: {}
+[33.132594] (-) TimerEvent: {}
+[33.233693] (-) TimerEvent: {}
+[33.337886] (-) TimerEvent: {}
+[33.456358] (-) TimerEvent: {}
+[33.564704] (-) TimerEvent: {}
+[33.684525] (-) TimerEvent: {}
+[33.891225] (-) TimerEvent: {}
+[33.991750] (-) TimerEvent: {}
+[34.092437] (-) TimerEvent: {}
+[34.193184] (-) TimerEvent: {}
+[34.301886] (-) TimerEvent: {}
+[34.415681] (-) TimerEvent: {}
+[34.516578] (-) TimerEvent: {}
+[34.617159] (-) TimerEvent: {}
+[34.717759] (-) TimerEvent: {}
+[34.818840] (-) TimerEvent: {}
+[34.919632] (-) TimerEvent: {}
+[35.020127] (-) TimerEvent: {}
+[35.120622] (-) TimerEvent: {}
+[35.221141] (-) TimerEvent: {}
+[35.321677] (-) TimerEvent: {}
+[35.422125] (-) TimerEvent: {}
+[35.522959] (-) TimerEvent: {}
+[35.623480] (-) TimerEvent: {}
+[35.724400] (-) TimerEvent: {}
+[35.825454] (-) TimerEvent: {}
+[35.926172] (-) TimerEvent: {}
+[36.026506] (-) TimerEvent: {}
+[36.127071] (-) TimerEvent: {}
+[36.225109] (turtlebot_navigation) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lap_time_action_server.dir/build.make:76: CMakeFiles/lap_time_action_server.dir/src/lap_time_action_server.cpp.o] Error 1\n'}
+[36.225636] (turtlebot_navigation) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/lap_time_action_server.dir/all] Error 2\n'}
+[36.226069] (turtlebot_navigation) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[36.227575] (-) TimerEvent: {}
+[36.327988] (-) TimerEvent: {}
+[36.428803] (-) TimerEvent: {}
+[36.529279] (-) TimerEvent: {}
+[36.629728] (-) TimerEvent: {}
+[36.730121] (-) TimerEvent: {}
+[36.830645] (-) TimerEvent: {}
+[36.834084] (turtlebot_navigation) CommandEnded: {'returncode': 2}
+[36.930926] (-) TimerEvent: {}
+[37.032107] (-) TimerEvent: {}
+[37.132725] (-) TimerEvent: {}
+[37.233493] (-) TimerEvent: {}
+[37.334150] (-) TimerEvent: {}
+[37.434824] (-) TimerEvent: {}
+[37.535177] (-) TimerEvent: {}
+[37.636133] (-) TimerEvent: {}
+[37.736788] (-) TimerEvent: {}
+[37.837413] (-) TimerEvent: {}
+[37.938049] (-) TimerEvent: {}
+[38.038754] (-) TimerEvent: {}
+[38.140460] (-) TimerEvent: {}
+[38.240979] (-) TimerEvent: {}
+[38.341671] (-) TimerEvent: {}
+[38.442520] (-) TimerEvent: {}
+[38.543092] (-) TimerEvent: {}
+[38.643881] (-) TimerEvent: {}
+[38.744935] (-) TimerEvent: {}
+[38.752626] (turtlebot_navigation) JobEnded: {'identifier': 'turtlebot_navigation', 'rc': 2}
+[38.763647] (-) EventReactorShutdown: {}
