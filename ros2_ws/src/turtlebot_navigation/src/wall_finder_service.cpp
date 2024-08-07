@@ -43,7 +43,7 @@ void WallFinderService::check_closest_distance(){
     else{
         twist.linear.x = 0.2;
         vel_pub->publish(twist);
-        // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Min distance: %.2f", closest_wall_distance);
+        RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Min distance: %.2f", closest_wall_distance);
     }
 }
 
